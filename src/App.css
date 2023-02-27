@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  justify-content: center;
+  margin:10px;
+}
+div{
+  margin:10px;
+}
+
+form {
+  border: 2px solid grey;
+  width: 400px;
+  height: max-content;
+}
+.imgDisplay{
+  width:100px;
+  height:100px;
+  object-fit: contain;
+}
+button {
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 0;
+  /* text-align: center; */
+}
+.tableHolder{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.table{
+  width:90%;
+  border: 2px solid black;
+}
+th{
+  border-bottom: 1px solid black;
+}
+td{
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+sup{
+  color:red;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
