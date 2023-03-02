@@ -25,21 +25,21 @@ const Form = () => {
     useEffect((e) => {
         if (tableData.length > 0) {
             localStorage.setItem("tableData", JSON.stringify(tableData))
-            for (const value of tableData){
-                var imageURL = value.image;
-                console.log(imageURL)
-                // for (const entry of Object.keys(value)){
-                //         if (entry === "image") {
-                //             const fileReader = new FileReader();
-                //             fileReader.readAsDataURL(imageURL);
-                //             fileReader.onload = () => {
-                //                 const finalResult = fileReader.result;
-                //                 localStorage.setItem("imageURL", finalResult)
-                //             }
-                //         }
-                // }
-            }
-           
+            console.log("tableData" , tableData)
+    //         // for (const value of tableData){
+    //         //     var imageURL = value.image;
+    //         //     console.log(imageURL)
+    //             // for (const entry of Object.keys(value)){
+    //             //         if (entry === "image") {
+    //             //             const fileReader = new FileReader();
+    //             //             fileReader.readAsDataURL(imageURL);
+    //             //             fileReader.onload = () => {
+    //             //                 const finalResult = fileReader.result;
+    //             //                 localStorage.setItem("imageURL", finalResult)
+    //             //             }
+    //             //         }
+    //             // }
+    //         // }
         }
     }, [tableData])
 
@@ -67,7 +67,7 @@ const Form = () => {
                     // let updatedUser = userData.map((user) => 
                     // {if (user.id === id)})
                     // setTableData()
-                    setEditUser(false)
+                    // setEditUser(false)
                 }
                 else{
                     setTableData(newData);

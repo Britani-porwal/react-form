@@ -20,7 +20,6 @@ const Table = ({ tableData, setTableData, callback }) => {
         callback(index)
     }
 
-
     const tableRows = tableData.map((userInfo, index) => {
         return (
             <tr>
