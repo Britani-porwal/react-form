@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 // import uuid from "react-uuid";
 const Table = ({ tableData, setTableData, callback }) => {
 
